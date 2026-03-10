@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Welcome to My Website</h1>
+<p class="tagline">Learning Web Development</p>
+<button onclick="toggleMode()" class="darkbtn">Toggle Dark Mode</button>
+</header>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<section id="home">
+<h2>Home</h2>
+<p>Welcome to my personal website.</p> <p>My name is Onyekachi Williams and i am a forex trader who is passionate about the globals financial markets.</p>
+<p>This website also shows my journey as i learn web developmentand build Projects using HTML,CSS and JavaScript
+</p>
+</section>
+<section id="about">
+<h2>About Me</h2>
+<img src="IMG-20250411-WA0292_1.jpg" alt="Profile Picture" class="profile">
+<p>Hello! My name is Onyekachi Williams.</p>
+    <P>I am a forex trader who studies the global financial markets.<p>I spend my time analyzing currency chart,studying strategies and improving my skills.</P>
+        </p><p>Besides trading, i am also Learning web developmentand building websites</p>
+</section>
+<section id="skills">
+<h2>My Skills</h2>
+<ul class="skills">
+<li>Forex Chart Analysis</li>
+<li>Web Design</li>
+<li>Full Stack Developer</li>
+</ul>
+</section>
+<section id="portfolio">
+<h2>My Projects</h2>
+<div class="card">
+<h3>Project 1</h3>
+<p>Simple HTML website.</p>
+</div>
+<div class="card">
+<h3>Project 2</h3>
+<p>Styled webpage using CSS.</p>
+</div>
+<div class="card">
+<h3>Project 3</h3>
+<p>Interactive page using JavaScript.</p>
+</div>
+</section>
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="3.jpg">
+<img src="5.jpg">
+<img src="6.png">
+</div>
+</section>
+<section id="contact">
+<h2>Contact Me</h2>
+<form id="contactForm">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+<footer>
+<p>Email: onyekachiwilliams2008@gmail.com</p>
+<div class="social">
+<a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+<a href="#">Twitter</a>
+</div>
+<p>© 2026 My Personal Website</p>
+</footer>
+<button id="topBtn" onclick="topFunction()">⬆ Top</button>
+<script src="script.js"></script>
+</body>
+</html>
